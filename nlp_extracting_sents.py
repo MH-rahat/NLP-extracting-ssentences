@@ -51,7 +51,7 @@ for company_index in range(0,company_number):
     to_del=[ ]
     to_keep=[ ]
     for i in range(0,len(doc_sentences_c)):
-        s_nlp=nlp(str(doc_sentences_c[i]).lower())#created another instance of nlp for the extracted sentence
+        s_nlp=custom_nlp(str(doc_sentences_c[i]).lower())#created another instance of nlp for the extracted sentence
         p=0
         for tok in s_nlp: 
            if tok.text in stop_words:#checking if the sentence contain stop word
