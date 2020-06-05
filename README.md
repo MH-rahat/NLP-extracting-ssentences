@@ -4,4 +4,4 @@ Pandas
 Numpy
 spaCy
 
-#run the python file
+run the final_nlp_extracting_summary.py file
