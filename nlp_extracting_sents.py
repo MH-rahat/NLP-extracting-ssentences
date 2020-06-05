@@ -43,7 +43,7 @@ company_number=10
 for company_index in range(0,company_number):
     doc = custom_nlp(str(data['Description'][company_index]))
     doc_sentences = list(doc.sents)
-    #storing the sentences in a list
+    #storing the sentSences in a list
     doc_sentences_c=[ ]
     for sentence in doc_sentences:
        doc_sentences_c.append(str(sentence))  
