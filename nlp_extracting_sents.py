@@ -10,8 +10,6 @@ import spacy
 from spacy.matcher import Matcher 
 from spacy.tokens import Span 
 
-
-
 #import the data
 data=pd.read_csv('Company descriptions-Grid view.csv')
 data.dropna(axis='index',inplace=True)
